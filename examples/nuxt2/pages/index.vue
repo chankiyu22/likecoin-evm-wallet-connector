@@ -1,6 +1,7 @@
 <template>
   <v-row>
     <v-col class="d-flex flex-column justify-center align-center">
+      <h2 class="text-lg text-red-50">Title</h2>
       <v-btn color="primary" @click="handleClickConnectionButton">{{ connectButtonTitle }}</v-btn>
       <div v-text="walletAddress" />
     </v-col>
